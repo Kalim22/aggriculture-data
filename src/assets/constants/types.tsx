@@ -19,3 +19,25 @@ export interface averageDataProps {
   averageYield: number;
   averageArea: number;
 }
+
+
+interface cropObjectProps {
+  crop: string;
+  production: number;
+  cropProduction: number | string;
+}
+
+export interface  cropObjectArrayProps {
+  [year: string]: cropObjectProps[];
+}
+
+
+interface AverageCropProps {
+  totalYield: number;
+  totalArea: number;
+  count: number;
+}
+
+export interface AverageCropArrayProps {
+  [crop: string]: AverageCropProps;
+}

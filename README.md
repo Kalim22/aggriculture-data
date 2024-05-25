@@ -15,5 +15,5 @@ step 3 : 'yarn build' run this command in root directory and you will get a fold
 ### Maximum and Minimum Production of every year from 1950 to 2020
 ![Screenshot 2024-05-25 224845](https://github.com/Kalim22/aggriculture-data/assets/80146968/0537af1a-8c2e-4de1-9ae1-fb7abba4b1ad)
 
-#### Average Yield and Cultivation Area of the Crop between 1950-2020
+### Average Yield and Cultivation Area of the Crop between 1950-2020
 ![Screenshot 2024-05-25 224903](https://github.com/Kalim22/aggriculture-data/assets/80146968/29062221-edd2-48fc-b714-b98ae4c533c8)

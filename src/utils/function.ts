@@ -1,15 +1,9 @@
 // import types from types
-import {CropDataProps,MaxMinProps,averageDataProps} from "../assets/constants/types"
+import {CropDataProps,MaxMinProps,averageDataProps, AverageCropArrayProps, cropObjectArrayProps} from "../assets/constants/types"
 
 export const maxMinData = (data: CropDataProps[]): MaxMinProps[] => {
     // create a empty object for holding values 
-    const yearData: {
-      [year: string]: {
-        crop: string;
-        production: number;
-        cropProduction: number | string;
-      }[];
-    } = {};
+    const yearData: cropObjectArrayProps = {}
   
     // iterate through the data to check every year
     data.forEach((item) => {
@@ -60,9 +54,9 @@ export const maxMinData = (data: CropDataProps[]): MaxMinProps[] => {
    
 export const averageData = (data: CropDataProps[]): averageDataProps[] => {
     // created empty object
-    const cropData: {
-      [crop: string]: { totalYield: number; totalArea: number; count: number };
-    } = {};
+      const cropData: {
+        [crop: string]: { totalYield: number; totalArea: number; count: number };
+      } = {};
   
     // iterate through the aggriculture data from the json file
     data.forEach((item) => {
