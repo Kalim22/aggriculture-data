@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  flex-direction: column;
+}
+.table__container{
+  width: 70%;
+  height: 60vh;
+  overflow-y: scroll;
+  border: 1px solid #98AAB7;
+}
+.table__thead{
+  position: sticky;
+  top: 0;
+  background: #e0e6e9;
+}
+.table__thead tr th{
+  text-align: center;
+}
+table tbody tr td{
+  text-align: center;
+}
+h1, h2{
+  font-size: 1.6rem;
+  color: #98AAB7;
+}
+h2{
+  margin-top: 6rem;
+}
