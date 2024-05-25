@@ -10,10 +10,10 @@ step 3 : 'yarn start' to run the development server
 ## Steps to build this project
 step 1 : Clone the repository or download the zip file
 step 2 : 'yarn install' in the root directory
-step 3 : 'yarn build' run this command in root directory and you will get a folder name of 'build'
+step 3 : 'yarn build' run this command in root directory and you will get a folder named of 'build'
 
 ### Maximum and Minimum Production of every year from 1950 to 2020
-![alt text](image.png)
+![Screenshot 2024-05-25 224845](https://github.com/Kalim22/aggriculture-data/assets/80146968/0537af1a-8c2e-4de1-9ae1-fb7abba4b1ad)
 
-#### Average of Yield and Cultivation Area of the Crop between 1950-2020
-![alt text](image-1.png)
+#### Average Yield and Cultivation Area of the Crop between 1950-2020
+![Screenshot 2024-05-25 224903](https://github.com/Kalim22/aggriculture-data/assets/80146968/29062221-edd2-48fc-b714-b98ae4c533c8)
