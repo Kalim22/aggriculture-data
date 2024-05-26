@@ -63,10 +63,11 @@ export const averageData = (data: CropDataProps[]): averageDataProps[] => {
       const yieldStr = item["Yield Of Crops (UOM:Kg/Ha(KilogramperHectare))"];
       const areaStr = item["Area Under Cultivation (UOM:Ha(Hectares))"];
       const cropName = item["Crop Name"];
-      const yieldValue = yieldStr;
-      const areaValue = areaStr;
+
+      // checking value is empty string or a number. If empty string then convert it to zero
+      const yieldValue = yieldStr === 0 ? 0 : +yieldStr
+      const areaValue = areaStr === 0 ? 0 : +areaStr
   
-      if (yieldValue === "" || areaValue === "") return;
   
       if (!cropData[cropName]) {
         cropData[cropName] = { totalYield: 0, totalArea: 0, count: 0 };
