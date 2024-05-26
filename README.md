@@ -16,5 +16,6 @@ step 3 : 'yarn build' run this command in root directory and you will get a fold
 ![Screenshot 2024-05-25 224845](https://github.com/Kalim22/aggriculture-data/assets/80146968/0537af1a-8c2e-4de1-9ae1-fb7abba4b1ad)
 
 ### Average Yield and Cultivation Area of the Crop between 1950-2020
-![Screenshot (25)](https://github.com/Kalim22/aggriculture-data/assets/80146968/dd7b079d-a7fc-44ed-bf21-11801c2301ed)
+![Screenshot 2024-05-26 175422](https://github.com/Kalim22/aggriculture-data/assets/80146968/03b398db-7cca-44ad-a49c-63f0b45a8622)
+
 
